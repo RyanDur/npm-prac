@@ -1,8 +1,11 @@
 {
-  "name": "@ryandur/npm",
-  "version": "1.0.2",
+  "name": "@ryandur/my-first-publish",
+  "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/RyanDur/npm-prac.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanDur/npm-prac.git"
+  },
   "scripts": {
     "test": "node test.js"
   },
@@ -11,5 +14,10 @@
   "description": "Just learnin to publish somthin",
   "dependencies": {
     "@linclark/pkg": "^1.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/RyanDur/npm-prac/issues"
+  },
+  "homepage": "https://github.com/RyanDur/npm-prac#readme",
+  "devDependencies": {}
 }
